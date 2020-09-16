@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS" />
+
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" revision="lineage-17.1" remote="lineage" />
+
+</manifest>
