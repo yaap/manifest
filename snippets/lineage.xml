@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="lineage"
-           fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-17.1" />
+           fetch="https://github.com/LineageOS" />
 
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" revision="lineage-17.1" remote="lineage" />
