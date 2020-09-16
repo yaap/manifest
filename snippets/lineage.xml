@@ -9,4 +9,6 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" revision="lineage-17.1" remote="lineage" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" revision="lineage-17.1" remote="lineage" />
 
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" revision="lineage-18.0" remote="lineage" />
+
 </manifest>
