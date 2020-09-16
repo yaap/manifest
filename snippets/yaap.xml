@@ -103,6 +103,7 @@
   <project path="system/extras" name="system_extras" remote="yaap" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="yaap" />
   <project path="system/keymaster" name="system_keymaster" remote="yaap" />
+  <project path="system/libufdt" name="system_libufdt" remote="yaap" />
   <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
   <project path="system/vold" name="system_vold" remote="yaap" />
