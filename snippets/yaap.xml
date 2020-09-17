@@ -67,6 +67,7 @@
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="yaap" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="yaap" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" remote="yaap" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="yaap">
     <!-- Add guard for AOSP hardware/qcom directory. -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
