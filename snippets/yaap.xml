@@ -36,7 +36,8 @@
   </project>
 
   <!-- Device -->
-  <!-- <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="yaap" /> -->
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="yaap" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="yaap" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="yaap" revision="eleven-legacy-um" />
 
   <!-- External -->
