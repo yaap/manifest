@@ -94,6 +94,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="yaap" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="yaap" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="yaap" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
@@ -132,6 +133,7 @@
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="yaap" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="yaap" />
   <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
 

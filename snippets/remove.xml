@@ -34,6 +34,7 @@
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/CertInstaller" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
   <remove-project name="platform/packages/apps/Settings" />
