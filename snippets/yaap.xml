@@ -129,6 +129,7 @@
 
   <!-- Tools -->
   <project path="tools/metalava" name="tools_metalava" remote="yaap" />
+  <project path="scripts" name="scripts" remote="yaap" revision="master" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="yaap" />
