@@ -1,0 +1,28 @@
+YAAP
+==============
+
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the YAAP trees, use a command like this:
+
+```bash
+repo init -u git://github.com/yaap/manifest.git -b eleven
+```
+Then to sync up:
+```bash
+repo sync -j$(nproc --all) --no-tags --no-clone-bundle
+```
+
+Building the source
+---------------
+
+The source at YAAP is well configured for building.
+
+```bash
+. build/envsetup.sh
+lunch yaap_device-userdebug && make yaap -j$(nproc --all)
+```
