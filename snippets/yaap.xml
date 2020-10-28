@@ -108,6 +108,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
+  <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
