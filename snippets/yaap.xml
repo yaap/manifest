@@ -39,6 +39,7 @@
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="yaap" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="yaap" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="yaap" revision="eleven-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
 
   <!-- External -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="yaap" />
@@ -127,7 +128,8 @@
     name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="yaap" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
     name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="yaap" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang"
+    remote="github" revision="master" clone-depth="1" />
 
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="yaap" />
