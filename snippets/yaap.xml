@@ -117,7 +117,6 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="yaap" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="yaap" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="yaap" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="yaap" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="yaap" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="yaap" />
