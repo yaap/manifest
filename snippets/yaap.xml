@@ -52,11 +52,11 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
+  <project path="frameworks/base" name="frameworks_base" remote="yaap" revision="eleven-caf-tele" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="yaap" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="yaap" revision="eleven-caf-tele" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="yaap" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" revision="eleven-caf-tele" />
 
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="yaap" />
@@ -119,8 +119,8 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" revision="eleven-caf-tele" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" revision="eleven-caf-tele" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="yaap" />
@@ -132,7 +132,7 @@
     remote="github" revision="master" clone-depth="1" />
 
   <!-- System -->
-  <project path="system/bt" name="system_bt" remote="yaap" />
+  <project path="system/bt" name="system_bt" remote="yaap" revision="eleven-caf-tele" />
   <project path="system/core" name="system_core" remote="yaap" />
   <project path="system/extras" name="system_extras" remote="yaap" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="yaap" />
