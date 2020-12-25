@@ -5,6 +5,17 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-18.0" />
 
+  <!-- External -->
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
+  <project path="external/nano" name="android_external_nano" remote="lineage" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="lineage" />
+  <project path="external/pigz" name="android_external_pigz" remote="lineage" />
+  <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
+  <project path="external/htop" name="android_external_htop" remote="lineage" />
+  <project path="external/zip" name="android_external_zip" remote="lineage" />
+
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" revision="lineage-17.1" remote="lineage" />
