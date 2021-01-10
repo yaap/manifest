@@ -45,6 +45,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="yaap" />
   <project path="external/guice" name="external_guice" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
+  <project path="external/pulse" name="external_pulse" remote="yaap" />
   <project path="external/selinux" name="external_selinux" remote="yaap" />
   <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
