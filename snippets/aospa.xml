@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- AOSPA -->
+  <remote  name="aospa"
+           fetch="https://github.com/AOSPA"
+           revision="ruby"/>
+
+  <remote  name="aospa_blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="ruby" />
+
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" />
+  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="aospa_blobs" />
+</manifest>
