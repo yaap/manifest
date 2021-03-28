@@ -835,6 +835,5 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/yaap.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/aospa.xml"/>
 
 </manifest>
