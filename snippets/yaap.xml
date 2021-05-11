@@ -154,6 +154,7 @@
   <project path="system/vold" name="system_vold" remote="yaap" />
 
   <!-- Tools -->
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="yaap" />
   <project path="tools/metalava" name="tools_metalava" remote="yaap" />
   <project path="scripts" name="scripts" remote="yaap" revision="master" />
 
