@@ -124,6 +124,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="yaap" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
