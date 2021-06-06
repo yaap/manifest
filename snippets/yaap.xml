@@ -115,7 +115,11 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="yaap" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="yaap" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="yaap" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="yaap" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="yaap" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
