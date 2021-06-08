@@ -185,5 +185,4 @@
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
   <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
 
-
 </manifest>
