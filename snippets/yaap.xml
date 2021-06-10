@@ -42,15 +42,19 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
 
   <!-- External -->
+  <project path="external/compiler-rt" name="external_compiler-rt" remote="yaap" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="yaap" />
   <project path="external/guice" name="external_guice" remote="yaap" />
+  <project path="external/honggfuzz" name="external_honggfuzz" remote="yaap" />
   <project path="external/json-c" name="external_json-c" remote="yaap" />
   <project path="external/mksh" name="external_mksh" remote="yaap" />
   <project path="external/pulse" name="external_pulse" remote="yaap" />
+  <project path="external/python/cpython2" name="external_python_cpython2" remote="yaap" />
   <project path="external/selinux" name="external_selinux" remote="yaap" />
   <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="yaap" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
@@ -113,6 +117,7 @@
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="yaap" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" remote="yaap" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
+  <project path="hardware/ril" name="hardware_ril" remote="yaap" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="yaap" />
@@ -139,11 +144,13 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="yaap" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="yaap" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"
     name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="yaap" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"
@@ -160,6 +167,7 @@
   <project path="system/libufdt" name="system_libufdt" remote="yaap" />
   <project path="system/netd" name="system_netd" remote="yaap" />
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
+  <project path="system/security" name="system_security" remote="yaap" />
   <project path="system/update_engine" name="system_update_engine" remote="yaap" />
   <project path="system/vold" name="system_vold" remote="yaap" />
 
@@ -173,8 +181,12 @@
   <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="eleven" />
   <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="eleven" />
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="yaap" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="yaap" revision="eleven-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="yaap" revision="eleven-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="yaap" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="yaap" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="yaap" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="yaap" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="yaap" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="yaap" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="yaap" />
