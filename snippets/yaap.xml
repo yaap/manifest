@@ -50,6 +50,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
 
   <!-- Hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="yaap" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="yaap" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="yaap" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" remote="yaap" />
@@ -75,10 +76,11 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="yaap" />
 
   <!-- Packages -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="yaap" />
