@@ -96,7 +96,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
-  <project path="packages/apps/GmsCompat" name="GrapheneOS/platform_packages_apps_GmsCompat" remote="github" revision="12.1" />
+  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="yaap" />
   <project path="packages/apps/KProfiles" name="CannedShroud/android_packages_apps_KProfiles" remote="github" revision="main" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
