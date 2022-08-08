@@ -93,6 +93,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="yaap" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="yaap" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="yaap" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="yaap" />
