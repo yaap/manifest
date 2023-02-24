@@ -10,6 +10,9 @@
   <remote  name="yaap"
            fetch="https://github.com/yaap"
            revision="refs/heads/thirteen" />
+  
+   <remote  name="aosp-mirror"
+           fetch="https://github.com/aosp-mirror" />
 
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
@@ -37,6 +40,44 @@
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="yaap" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="yaap" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="yaap" />
+  
+  <!-- Common Oneplus -->
+  <project path="device/oneplus/sm8150-common" name="device_oneplus_sm8150-common" remote="yaap" />
+  <project path="vendor/oneplus/sm8150-common" name="vendor_oneplus_sm8150-common" remote="yaap" />
+  <project path="hardware/oneplus" name="hardware_oneplus" remote="yaap" />
+  <project path="kernel/oneplus/sm8150" name="kernel_oneplus_sm8150" remote="yaap" />
+  
+  <!-- Guacamole -->
+  <project path="device/oneplus/guacamole" name="device_oneplus_guacamole" remote="yaap" />
+  <project path="vendor/oneplus/guacamole" name="vendor_oneplus_guacamole" remote="yaap" />
+  
+  <!-- Guacamoleb -->
+  <project path="device/oneplus/guacamoleb" name="device_oneplus_guacamoleb" remote="yaap" />
+  <project path="vendor/oneplus/guacamoleb" name="vendor_oneplus_guacamoleb" remote="yaap" />
+  
+  <!-- Guacamoles -->
+  <project path="device/oneplus/guacamoles" name="device_oneplus_guacamoles" remote="yaap" />
+  <project path="vendor/oneplus/guacamoles" name="vendor_oneplus_guacamoles" remote="yaap" />
+  
+  <!-- Hotdog -->
+  <project path="device/oneplus/hotdog" name="device_oneplus_hotdog" remote="yaap" />
+  <project path="vendor/oneplus/hotdog" name="vendor_oneplus_hotdog" remote="yaap" />
+  
+  <!-- Hotdogb -->
+  <project path="device/oneplus/hotdogb" name="device_oneplus_hotdogb" remote="yaap" />
+  <project path="vendor/oneplus/hotdogb" name="vendor_oneplus_hotdogb" remote="yaap" />
+  
+  <!-- Lisa -->
+  <project path="device/xiaomi/lisa" name="device_xiaomi_lisa" remote="yaap" revision="thirteen" />
+  <project path="vendor/xiaomi/lisa" name="vendor_xiaomi_lisa" remote="yaap" revision="thirteen" />
+  <project path="kernel/xiaomi/lisa" name="kernel_xiaomi_lisa" remote="yaap" revision="thirteen" />
+  <project path="vendor/xiaomi/lisa-firmware" name="yoasp/vendor_xiaomi_lisa_firmware" remote="gitlab" revision="thirteen" />
+  <project path="vendor/xiaomi/lisa-miuicamera" name="yoasp/vendor_xiaomi_lisa_miuicamera" remote="gitlab" revision="thirteen" />
+  
+  <!-- QCom -->
+  <project path="device/qcom/common" name="device_qcom_common" remote="yaap" />
+  <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="thirteen" />
+  <!--   <project path="frameworks/support" name="platform_frameworks_support" remote="aosp-mirror" revision="sdk-release" /> -->
 
   <!-- External -->
   <project path="external/aac" name="external_aac" remote="yaap" />
