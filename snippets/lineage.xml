@@ -21,6 +21,7 @@
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-21.0-caf" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
 
   <!-- Framework -->
   <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="lineage" />
