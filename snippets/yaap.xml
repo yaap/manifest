@@ -57,7 +57,6 @@
   <project path="external/libxml2" name="external_libxml2" remote="yaap" />
   <project path="external/lz4" name="external_lz4" remote="yaap" />
   <project path="external/mksh" name="external_mksh" remote="yaap" />
-  <project path="external/seedvault" name="GrapheneOS/platform_external_seedvault" remote="github" revision="14" />
   <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
   <project path="external/svox" name="external_svox" remote="yaap" />
@@ -115,6 +114,7 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android14" />
+  <project path="packages/apps/Seedvault" name="CalyxOS/platform_packages_apps_Seedvault" remote="github" revision="android14" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
