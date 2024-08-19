@@ -74,6 +74,7 @@
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libdav1d" />
   <remove-project name="platform/external/libfuse" />
+  <remove-project name="platform/external/libgsm" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/libxml2" />

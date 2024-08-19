@@ -35,34 +35,6 @@
   <project path="external/json-c" remote="lineage" name="android_external_json-c" groups="qcom,qssi" />
   <project path="hardware/qcom-caf/bootctrl" remote="lineage" name="android_hardware_qcom_bootctrl" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" />
   <project path="hardware/qcom-caf/bt" remote="lineage" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-21.0-caf" />
-  <project path="hardware/qcom-caf/common" remote="lineage" name="android_hardware_qcom-caf_common" groups="qcom" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
-  </project>
   <project path="hardware/qcom-caf/msm8953/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-21.0-caf-msm8953" />
   <project path="hardware/qcom-caf/msm8953/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-msm8953" />
   <project path="hardware/qcom-caf/msm8953/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-21.0-caf-msm8953" />
@@ -102,7 +74,6 @@
   <project path="hardware/qcom-caf/wlan" remote="lineage" name="android_hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" />
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/fm" remote="lineage" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
@@ -115,7 +86,6 @@
   <project path="vendor/qcom/opensource/healthd-ext" remote="lineage" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/interfaces" remote="lineage" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/libfmjni" remote="lineage" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" />
-  <project path="vendor/qcom/opensource/power" remote="lineage" name="android_vendor_qcom_opensource_power" groups="qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/thermal-engine" remote="lineage" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/usb" remote="lineage" name="android_vendor_qcom_opensource_usb" groups="qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/vibrator" remote="lineage" name="android_vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" />
