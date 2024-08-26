@@ -91,6 +91,7 @@
   <project path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa-sm8650" remote="yaap" />
   <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="yaap" />
   <project path="hardware/qcom-caf/sm8650/display" name="hardware_qcom-caf_sm8650_display" remote="yaap" />
+  <project path="hardware/qcom-caf/sm8650/media" name="hardware_qcom-caf_sm8650_media" remote="yaap" />
   <project path="hardware/qcom-caf/common" remote="yaap" name="hardware_qcom-caf_common" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
