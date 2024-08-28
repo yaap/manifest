@@ -11,6 +11,10 @@
            fetch="https://github.com/yaap"
            revision="refs/heads/fourteen" />
 
+  <remote  name="PeterCxy"
+           fetch="https://gitea.angry.im/PeterCxy"
+           revision="refs/heads/master" />
+
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
@@ -141,6 +145,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="yaap" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
+  <project sync-s="true" path="packages/apps/OpenEUICC" name="packages_OpenEUICC" remote="PeterCxy" />
   <project path="packages/apps/Panic" name="CalyxOS/platform_packages_apps_Panic" remote="github" revision="android14" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
@@ -173,6 +178,7 @@
   <project path="prebuilts/calyx/chromium/arm" name="CalyxOS/platform_prebuilts_calyx_chromium_arm" remote="gitlab" revision="android11-qpr1" clone-depth="1" />
   <project path="prebuilts/calyx/chromium/x86" name="CalyxOS/platform_prebuilts_calyx_chromium_x86" remote="gitlab" revision="android13" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="yaosp/prebuilts_clang_host_linux-x86" remote="gitlab" revision="fourteen" clone-depth="1" />
+  <project path="prebuilts/openeuicc-deps" name="android_prebuilts_openeuicc-deps" remote="PeterCxy" />
   <project path="prebuilts/sdk" name="prebuilts_sdk" remote="yaap" clone-depth="1" />
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="yaap" />
 
