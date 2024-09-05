@@ -203,7 +203,7 @@
   <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fourteen" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="yaap" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="vendor_qcom_opensource_audio-hal_st-hal-ar" remote="yaap" />
-  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="yaap" />
+  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" revision="fourteen-sm8650" remote="yaap" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
   <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
