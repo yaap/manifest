@@ -72,7 +72,6 @@
   <project path="hardware/qcom-caf/sm8550/dataipa" remote="lineage" name="android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8550" />
   <project path="hardware/qcom-caf/sm8550/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-21.0-caf-sm8550" />
-  <project path="hardware/qcom-caf/thermal" remote="lineage" name="android_hardware_qcom_thermal" groups="qcom,kailua-vendor" />
   <project path="hardware/qcom-caf/vr" remote="lineage" name="android_hardware_qcom_vr" groups="qcom,legacy-qcom" />
   <project path="hardware/qcom-caf/wlan" remote="lineage" name="android_hardware_qcom_wlan" groups="qcom,kailua-vendor" revision="lineage-21.0-caf" />
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
