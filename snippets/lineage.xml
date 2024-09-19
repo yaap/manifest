@@ -10,6 +10,7 @@
 
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
+  <project path="external/dtc" name="android_external_dtc" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />

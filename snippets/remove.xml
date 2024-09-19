@@ -65,6 +65,7 @@
   <remove-project name="platform/build/release" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/f2fs-tools" />
