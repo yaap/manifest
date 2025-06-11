@@ -203,6 +203,8 @@
   <!-- Prebuilts -->
   <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="main" clone-depth="1" />
   <project path="prebuilts/calyx/chromium/x64" name="CalyxOS/lfs_prebuilts_calyx_chromium_x64" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
+  <project path="prebuilts/calyx/espeak-ng" name="CalyxOS/lfs_prebuilts_calyx_espeak-ng" remote="gitlab" revision="main" clone-depth="1" />
+  <project path="prebuilts/calyx/talkback" name="CalyxOS/lfs_prebuilts_calyx_talkback" remote="gitlab" revision="main" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" revision="62cdcefa89e31af2d72c366e8b5ef8db84caea62" />
   <project path="prebuilts/openeuicc-deps" name="prebuilts_openeuicc-deps" remote="yaap" />
   <project path="prebuilts/r8" name="platform/prebuilts/r8" remote="aosp" revision="fc5b15d29cba468ac8f626b299727fb7dbec9512" />
