@@ -57,7 +57,7 @@
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="lineage-23.2" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" revision="lineage-22.0" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="lineage" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="lineage" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,qssi" revision="lineage-22.2" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/fm" remote="lineage" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
