@@ -3,7 +3,7 @@
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-22.2" />
+           revision="refs/heads/lineage-23.2" />
 
   <!-- External -->
   <project path="external/nano" name="android_external_nano" remote="lineage" />
@@ -12,50 +12,50 @@
 
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,qssi" />
-  <project path="device/qcom/sepolicy-legacy-um" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-22.2-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-22.2-caf-sm8550" />
+  <project path="device/qcom/sepolicy-legacy-um" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-23.2-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
   <project path="external/ant-wireless/ant_native" remote="lineage" name="android_external_ant-wireless_ant_native" groups="qcom" />
   <project path="external/ant-wireless/hidl" remote="lineage" name="android_external_ant-wireless_hidl" groups="qcom,qssi" />
   <project path="external/json-c" remote="lineage" name="android_external_json-c" groups="qcom,qssi" />
-  <project path="hardware/qcom-caf/bootctrl" remote="lineage" name="android_hardware_qcom_bootctrl" groups="qcom,kailua-vendor" revision="lineage-22.2-caf" />
-  <project path="hardware/qcom-caf/bt" remote="lineage" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-22.2-caf" />
-  <project path="hardware/qcom-caf/msm8953/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-22.2-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8953/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8953/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-22.2-caf-msm8953" />
+  <project path="hardware/qcom-caf/bootctrl" remote="lineage" name="android_hardware_qcom_bootctrl" groups="qcom,kailua-vendor" revision="lineage-23.2-caf" />
+  <project path="hardware/qcom-caf/bt" remote="lineage" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-23.2-caf" />
+  <project path="hardware/qcom-caf/msm8953/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953" />
   <project path="hardware/qcom-caf/msm8996/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-22.2-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm660/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-22.2-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-22.2-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm845/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-22.2-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-22.2-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8250/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-22.2-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom,kona" revision="lineage-22.2-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,kona" revision="lineage-22.2-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8350/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-22.2-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8450/audio/agm" remote="lineage" name="android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/audio/graphservices" remote="lineage" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-22.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/audio/pal" remote="lineage" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" remote="lineage" name="android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" remote="lineage" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="lineage-22.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8550/audio/agm" remote="lineage" name="android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/graphservices" remote="lineage" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/pal" remote="lineage" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" remote="lineage" name="android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" remote="lineage" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/dataipa" remote="lineage" name="android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-22.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-22.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/msm8996/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-23.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-23.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm660/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-23.2-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-23.2-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm845/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8250/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8350/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-23.2-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8450/audio/agm" remote="lineage" name="android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/graphservices" remote="lineage" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" remote="lineage" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" remote="lineage" name="android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" remote="lineage" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" remote="lineage" name="android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/graphservices" remote="lineage" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" remote="lineage" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" remote="lineage" name="android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" remote="lineage" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/dataipa" remote="lineage" name="android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8550" />
   <project path="hardware/qcom-caf/vr" remote="lineage" name="android_hardware_qcom_vr" groups="qcom,legacy-qcom" revision="lineage-22.1" />
   <project path="hardware/samsung/nfc" remote="lineage" name="android_hardware_samsung_nfc" />
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="lineage-22.2" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" revision="lineage-23.2" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" revision="lineage-22.0" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="lineage" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
