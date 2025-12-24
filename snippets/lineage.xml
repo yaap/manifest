@@ -15,7 +15,7 @@
   <project path="device/qcom/sepolicy-legacy-um" remote="lineage" name="android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-23.2-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/sm8450" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
   <project path="device/qcom/sepolicy_vndr/sm8550" remote="lineage" name="android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
-  <project path="external/ant-wireless/ant_native" remote="lineage" name="android_external_ant-wireless_ant_native" groups="qcom" />
+  <project path="external/ant-wireless/ant_native" remote="lineage" name="android_external_ant-wireless_ant_native" groups="qcom" revision="lineage-22.2" />
   <project path="external/ant-wireless/hidl" remote="lineage" name="android_external_ant-wireless_hidl" groups="qcom,qssi" />
   <project path="external/json-c" remote="lineage" name="android_external_json-c" groups="qcom,qssi" />
   <project path="hardware/qcom-caf/bootctrl" remote="lineage" name="android_hardware_qcom_bootctrl" groups="qcom,kailua-vendor" revision="lineage-23.2-caf" />
