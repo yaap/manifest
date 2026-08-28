@@ -68,6 +68,7 @@
   <project path="vendor/qcom/opensource/healthd-ext" remote="lineage" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,kailua-vendor" />
   <project path="vendor/qcom/opensource/libfmjni" remote="lineage" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" />
   <project path="vendor/qcom/opensource/thermal-engine" remote="lineage" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,kailua-vendor" />
+  <project path="vendor/qcom/opensource/libvmmem" remote="lineage" name="android_vendor_qcom_opensource_libvmmem" groups="qcom,k2c-le" revision="lineage-24.0" />
 
   <!-- Packages -->
   <project path="packages/apps/Camelot" name="android_packages_apps_Camelot" remote="lineage" revision="lineage-23.2" />
