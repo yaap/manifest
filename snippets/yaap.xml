@@ -55,13 +55,16 @@
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
   <project path="external/freetype" name="external_freetype" remote="yaap" />
   <project path="external/htop" name="external_htop" remote="yaap" />
+  <project path="external/libcupsfilters" name="external_libcupsfilters" remote="yaap" />
   <project path="external/libcxx" name="external_libcxx" remote="yaap" />
   <project path="external/libdav1d" name="external_libdav1d" remote="yaap" />
   <project path="external/libfuse" name="external_libfuse" remote="yaap" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="yaap" />
   <project path="external/libjxl" name="external_libjxl" remote="yaap" />
+  <project path="external/libhevc" name="external_libhevc" remote="yaap" />
   <project path="external/libncurses" name="external_libncurses" remote="yaap" />
   <project path="external/libpng" name="external_libpng" remote="yaap" />
+  <project path="external/libppd" name="external_libppd" remote="yaap" />
   <project path="external/libxml2" name="external_libxml2" remote="yaap" />
   <project path="external/mksh" name="external_mksh" remote="yaap" />
   <project path="external/setupcompat" name="external_setupcompat" remote="yaap" />
@@ -71,6 +74,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/vim" name="external_vim" remote="yaap" />
   <project path="external/vixl" name="external_vixl" remote="yaap" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="yaap" />
   <project path="external/zstd" name="external_zstd" remote="yaap" />
 
   <!-- Frameworks -->
@@ -137,6 +141,7 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
   </project>
   <project path="hardware/st/nfc" name="hardware_st_nfc" remote="yaap" />
+  <project path="hardware/nxp/secure_element" name="hardware_nxp_secure_element" remote="yaap" />
 
   <!-- Kernel -->
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="main-kernel-build-2024" />
@@ -154,6 +159,7 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="yaap" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="yaap" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="yaap" />
+  <project path="packages/apps/ContactsPicker" name="packages_apps_ContactsPicker" remote="yaap" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="yaap" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="yaap" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="yaap" />
@@ -179,6 +185,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="yaap" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="yaap" />
+  <project path="packages/apps/TV" name="packages_apps_TV" remote="yaap" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="yaap" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="yaap" />
@@ -190,6 +197,7 @@
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap" />
   <project path="packages/modules/UprobeStats" name="packages_modules_UprobeStats" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
+  <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="yaap" />
   <project path="packages/providers/BlockedNumberProvider" name="packages_providers_BlockedNumberProvider" remote="yaap" />
   <project path="packages/providers/BookmarkProvider" name="packages_providers_BookmarkProvider" remote="yaap" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="yaap" />
