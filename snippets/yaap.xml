@@ -43,7 +43,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
   <project path="external/bouncycastle" name="external_bouncycastle" remote="yaap" />
-  <project path="external/vanadium" name="GrapheneOS/platform_external_vanadium" remote="gitlab" revision="16-qpr2" clone-depth="1" />
+  <project path="external/vanadium" name="GrapheneOS/platform_external_vanadium" remote="gitlab" revision="17" clone-depth="1" />
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="yaap" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="yaap" />
   <project path="external/avb" name="external_avb" remote="yaap" />
