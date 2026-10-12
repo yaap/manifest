@@ -190,6 +190,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="yaap" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="yaap" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="yaap" />
+  <project path="packages/modules/AdServices" name="packages_modules_AdServices" remote="yaap" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="yaap" />
