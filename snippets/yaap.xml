@@ -41,6 +41,7 @@
   <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr_sm8650" remote="yaap" />
 
   <!-- External -->
+  <project path="external/aac" name="external_aac" remote="yaap" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
   <project path="external/bouncycastle" name="external_bouncycastle" remote="yaap" />
   <project path="external/vanadium" name="GrapheneOS/platform_external_vanadium" remote="gitlab" revision="17" clone-depth="1" />
@@ -55,6 +56,7 @@
   <project path="external/exfatprogs" name="external_exfatprogs" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
   <project path="external/freetype" name="external_freetype" remote="yaap" />
+  <project path="external/hplip" name="external_hplip" remote="yaap" />
   <project path="external/htop" name="external_htop" remote="yaap" />
   <project path="external/libcupsfilters" name="external_libcupsfilters" remote="yaap" />
   <project path="external/libcxx" name="external_libcxx" remote="yaap" />
@@ -64,6 +66,7 @@
   <project path="external/libjxl" name="external_libjxl" remote="yaap" />
   <project path="external/libhevc" name="external_libhevc" remote="yaap" />
   <project path="external/libncurses" name="external_libncurses" remote="yaap" />
+  <project path="external/libopenapv" name="external_libopenapv" remote="yaap" />
   <project path="external/libpng" name="external_libpng" remote="yaap" />
   <project path="external/libppd" name="external_libppd" remote="yaap" />
   <project path="external/libxml2" name="external_libxml2" remote="yaap" />
@@ -73,6 +76,7 @@
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
   <project path="external/tensorflow" name="external_tensorflow" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
+  <project path="external/tremolo" name="external_tremolo" remote="yaap" />
   <project path="external/vim" name="external_vim" remote="yaap" />
   <project path="external/vixl" name="external_vixl" remote="yaap" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="yaap" />
@@ -142,6 +146,7 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
   </project>
   <project path="hardware/st/nfc" name="hardware_st_nfc" remote="yaap" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="yaap" />
   <project path="hardware/nxp/secure_element" name="hardware_nxp_secure_element" remote="yaap" />
 
   <!-- Kernel -->
@@ -171,6 +176,7 @@
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
+  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
@@ -194,9 +200,13 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="yaap" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="yaap" />
   <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="yaap" />
+  <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="yaap" />
+  <project path="packages/modules/NeuralNetworks" name="packages_modules_NeuralNetworks" remote="yaap" />
   <project path="packages/modules/Nfc" name="packages_modules_Nfc" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
+  <project path="packages/modules/Profiling" name="packages_modules_Profiling" remote="yaap" />
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap" />
+  <project path="packages/modules/Telephony" name="packages_modules_Telephony" remote="yaap" />
   <project path="packages/modules/UprobeStats" name="packages_modules_UprobeStats" remote="yaap" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
   <project path="packages/modules/Uwb" name="packages_modules_Uwb" remote="yaap" />
@@ -207,8 +217,10 @@
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="yaap" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="yaap" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="yaap" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="yaap" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="yaap" />
   <project path="packages/services/Iwlan" name="packages_services_Iwlan" remote="yaap" />
+  <project path="packages/services/Mms" name="packages_services_Mms" remote="yaap" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="yaap" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="yaap" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
@@ -224,6 +236,7 @@
   <project path="system/core" name="system_core" remote="yaap" />
   <project path="system/extras" name="system_extras" remote="yaap" />
   <project path="system/fs/fs_mgr" name="system_fs_fs_mgr" remote="yaap" />
+  <project path="system/gsid" name="system_gsid" remote="yaap" />
   <project path="system/libvintf" name="system_libvintf" remote="yaap" />
   <project path="system/media" name="system_media" remote="yaap" />
   <project path="system/memory/libion" name="system_memory_libion" remote="yaap" />
@@ -233,6 +246,9 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="yaap" />
   <project path="system/update_engine" name="system_update_engine" remote="yaap" />
   <project path="system/vold" name="system_vold" remote="yaap" />
+
+  <!-- Trusty -->
+  <project path="trusty/user/base" name="trusty_user_base" remote="yaap" />
 
   <!-- Tools -->
   <project path="scripts" name="scripts" remote="yaap" revision="master" />
