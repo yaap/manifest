@@ -42,6 +42,7 @@
   <remove-project name="platform/external/libppd" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/sqlite" />
