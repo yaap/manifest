@@ -177,6 +177,7 @@
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="yaap" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="yaap" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="yaap" />
+  <project path="packages/apps/LMOSystemUIClock" name="packages_apps_LMOSystemUIClock" remote="yaap" />
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
